@@ -1,0 +1,21 @@
+{
+  "manifest_version":2,
+  "name":"One Line Calc",
+  "description":"One Line Calculator",
+  "version": "1.0",
+  "icons": {
+    "128": "bm128.png",
+    "48": "bm48.png",
+    "16": "bm16.png"
+  },
+  "browser_action": {
+    "default_icon": "bm16.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+          "storage",
+          "notifications",
+          "contextMenus",
+          "tabs"
+        ]
+}
